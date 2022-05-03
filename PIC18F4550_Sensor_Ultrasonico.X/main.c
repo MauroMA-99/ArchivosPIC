@@ -6,13 +6,13 @@
  */
 
 /*Cabecera del programa*/
-#include <xc.h>
+#include "config.h" /*Cabecera con la configuracion de fuses*/
 #define _XTAL_FREQ 8000000 /*Definicion del oscilador del CPU*/
-#include <stdint.h>  /*Libreria par alos enteros no estandar*/
+#include <xc.h>
+#include <stdint.h>  /*Libreria para los enteros no estandar*/
 #include <stdio.h>
 #include <stdlib.h>
 #include "LCD_4bits.h"
-#include "config.h" /*Cabecera con la configuracion de fuses*/
 
 /*Variables globales*/
 
