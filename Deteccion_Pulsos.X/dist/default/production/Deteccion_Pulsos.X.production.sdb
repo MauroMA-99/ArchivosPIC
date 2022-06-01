@@ -1,0 +1,76 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4550 ]
+[d frameptr 4065 ]
+"4 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"14 D:\PIC_carpeta\Deteccion_Pulsos.X\main.c
+[v _main main `(i  1 e 2 0 ]
+"52
+[v _ISR ISR `IIH(v  1 e 1 0 ]
+"58
+[v _pinChange_ISR pinChange_ISR `(v  1 e 1 0 ]
+"2453 C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h
+[v _PORTB PORTB `VEuc  1 e 1 @3969 ]
+"3263
+[v _LATD LATD `VEuc  1 e 1 @3980 ]
+"3625
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+"4001
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+"6581
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @4033 ]
+"7986
+[v _OSCCON OSCCON `VEuc  1 e 1 @4051 ]
+"9741
+[v _GIE GIE `VEb  1 e 0 @32663 ]
+"10383
+[v _RBIE RBIE `VEb  1 e 0 @32659 ]
+"10386
+[v _RBIF RBIF `VEb  1 e 0 @32656 ]
+"10392
+[v _RBPU RBPU `VEb  1 e 0 @32655 ]
+"8 D:\PIC_carpeta\Deteccion_Pulsos.X\main.c
+[v _display7a display7a `[10]uc  1 e 10 0 ]
+"14
+[v _main main `(i  1 e 2 0 ]
+{
+"18
+[v main@i i `uc  1 a 1 6 ]
+"49
+} 0
+"52
+[v _ISR ISR `IIH(v  1 e 1 0 ]
+{
+"56
+} 0
+"58
+[v _pinChange_ISR pinChange_ISR `(v  1 e 1 0 ]
+{
+"60
+[v pinChange_ISR@KBIx KBIx `uc  1 a 1 3 ]
+"85
+} 0
