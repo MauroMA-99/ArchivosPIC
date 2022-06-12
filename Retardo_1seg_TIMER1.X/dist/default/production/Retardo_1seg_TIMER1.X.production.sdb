@@ -1,0 +1,115 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4550 ]
+[d frameptr 4065 ]
+"4 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"15 D:\PIC_carpeta\Retardo_1seg_TIMER1.X\main.c
+[v _main main `(i  1 e 2 0 ]
+"41
+[v _ISR ISR `IIH(v  1 e 1 0 ]
+"48
+[v _TIMER1_Begin TIMER1_Begin `(v  1 e 1 0 ]
+"58
+[v _TIMER1_ISR TIMER1_ISR `(v  1 e 1 0 ]
+[s S35 . 1 `uc 1 RA0 1 0 :1:0 
+`uc 1 RA1 1 0 :1:1 
+`uc 1 RA2 1 0 :1:2 
+`uc 1 RA3 1 0 :1:3 
+`uc 1 RA4 1 0 :1:4 
+`uc 1 RA5 1 0 :1:5 
+`uc 1 RA6 1 0 :1:6 
+]
+"2353 C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h
+[s S43 . 1 `uc 1 AN0 1 0 :1:0 
+`uc 1 AN1 1 0 :1:1 
+`uc 1 AN2 1 0 :1:2 
+`uc 1 AN3 1 0 :1:3 
+`uc 1 T0CKI 1 0 :1:4 
+`uc 1 AN4 1 0 :1:5 
+`uc 1 OSC2 1 0 :1:6 
+]
+[s S51 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 VREFM 1 0 :1:2 
+`uc 1 VREFP 1 0 :1:3 
+`uc 1 . 1 0 :1:4 
+`uc 1 LVDIN 1 0 :1:5 
+]
+[s S57 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 HLVDIN 1 0 :1:5 
+]
+[s S60 . 1 `uc 1 ULPWUIN 1 0 :1:0 
+]
+[u S62 . 1 `S35 1 . 1 0 `S43 1 . 1 0 `S51 1 . 1 0 `S57 1 . 1 0 `S60 1 . 1 0 ]
+[v _PORTAbits PORTAbits `VES62  1 e 1 @3968 ]
+"3073
+[v _LATB LATB `VEuc  1 e 1 @3978 ]
+"3263
+[v _LATD LATD `VEuc  1 e 1 @3980 ]
+"3427
+[v _TRISA TRISA `VEuc  1 e 1 @3986 ]
+"3625
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+"4001
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+"6581
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @4033 ]
+"7415
+[v _T1CON T1CON `VEuc  1 e 1 @4045 ]
+"7518
+[v _TMR1 TMR1 `VEus  1 e 2 @4046 ]
+"7986
+[v _OSCCON OSCCON `VEuc  1 e 1 @4051 ]
+"9741
+[v _GIE GIE `VEb  1 e 0 @32663 ]
+"10269
+[v _PEIE PEIE `VEb  1 e 0 @32662 ]
+"10827
+[v _TMR1IE TMR1IE `VEb  1 e 0 @31976 ]
+"10830
+[v _TMR1IF TMR1IF `VEb  1 e 0 @31984 ]
+"8 D:\PIC_carpeta\Retardo_1seg_TIMER1.X\main.c
+[v _aux aux `VEuc  1 e 1 0 ]
+"15
+[v _main main `(i  1 e 2 0 ]
+{
+"38
+} 0
+"48
+[v _TIMER1_Begin TIMER1_Begin `(v  1 e 1 0 ]
+{
+"56
+} 0
+"41
+[v _ISR ISR `IIH(v  1 e 1 0 ]
+{
+"46
+} 0
+"58
+[v _TIMER1_ISR TIMER1_ISR `(v  1 e 1 0 ]
+{
+"70
+} 0
